@@ -144,18 +144,5 @@ pytest tests/
 
 ---
 
-## 💼 CV / Portfolio Bullet Points
-
-You can include this project in your Resume / LinkedIn under **Personal Projects**:
-
-* **Customer Churn Prediction & Value-Tier Segmentation Engine** *(Python, Scikit-Learn, XGBoost, LightGBM, Optuna, SHAP, FastAPI, Streamlit)*
-  * Built an end-to-end Machine Learning pipeline on **10,000+ customer records** with realistic class imbalance (~18% churn), utilizing SMOTE and RobustScaler to guarantee zero data leakage.
-  * Engineered 25+ domain features including RFM indicators, usage velocity drop rates, and support ticket intensity.
-  * Benchmarked 4 algorithms and optimized XGBoost hyperparameters using **Optuna Bayesian search**, achieving **ROC-AUC of 0.892, Recall of 84.5%, and F1-score of 0.813**.
-  * Deployed **SHAP explainability** to generate global feature importance and individual reason codes, paired with **K-Means segmentation** to direct proactive retention, projecting **$200,000+ in annual recurring revenue preserved**.
-  * Delivered production-ready **FastAPI** microservice and an interactive **Streamlit** dashboard for executive decision-making.
-
----
-
 ## 📜 License
 Distributed under the MIT License. See `LICENSE` for more information.
